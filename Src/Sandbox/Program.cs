@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using NET6Sandbox;
+using Sandbox.CSharp11;
 using Sandbox.CSharp8;
 
 //DeconstructorDemo.Demo();
@@ -11,5 +12,8 @@ using Sandbox.CSharp8;
 
 
 //IndexFeature.Demo();
-RangeFeature.Demo();
+//RangeFeature.Demo();
+
+AutoDefaultStructure.Demo();
+
 Console.WriteLine("Hello, World!");
