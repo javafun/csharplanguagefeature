@@ -14,6 +14,7 @@ using Sandbox.CSharp8;
 //IndexFeature.Demo();
 //RangeFeature.Demo();
 
-AutoDefaultStructure.Demo();
+// AutoDefaultStructure.Demo();
 
+NameOfExtendDemo.Demo([1,2,3]);
 Console.WriteLine("Hello, World!");
