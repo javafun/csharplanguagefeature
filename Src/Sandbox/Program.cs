@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using NET6Sandbox;
+using Sandbox;
 using Sandbox.CSharp11;
 using Sandbox.CSharp8;
 
@@ -16,5 +17,7 @@ using Sandbox.CSharp8;
 
 // AutoDefaultStructure.Demo();
 
-NameOfExtendDemo.Demo([1,2,3]);
+// NameOfExtendDemo.Demo([1,2,3]);
+
+GenericMathDemo.Demo();
 Console.WriteLine("Hello, World!");
