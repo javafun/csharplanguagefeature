@@ -13,6 +13,16 @@ public class MicrosAndNanoSecondDemo
     public static void Demo()
     {
         // In this example, 100 is micro seconds
-        Console.WriteLine(new DateTime(0001,01,01,00,00,00,00,100).Ticks);  // 1000 (100 micro sec = 1000 ticks)
+        Console.WriteLine(new DateTime(0001, 01, 01, 00, 00, 00, 00, 100).Ticks);  // 1000 (100 micro sec = 1000 ticks)
+
+        Console.WriteLine(DateTime.Parse($"{dt} {tm1}").Microsecond); // 100 (1000 ticks = 100 micro sec)
+
+        Console.WriteLine(DateTime.Parse($"{dt} {tm2}").Nanosecond); // 900 (9 ticks = 900 nano ec)
+
+        Console.WriteLine(DateTime.MinValue.Microsecond); // minimum date time micro sec
+        Console.WriteLine(DateTime.MinValue.AddMicroseconds(100).Ticks); // 1000 (100 micro sec = 1000 ticks)
+
+        // DateTimeOffSet example
+        Console.WriteLine(new DateTimeOffset(0001, 01, 01, 00, 00, 00, 00, 999, TimeSpan.FromHours(-8)).Ticks); //9990 (999 micro sec = 9990 ticks)
     }
 }
