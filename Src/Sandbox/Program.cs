@@ -19,5 +19,6 @@ using Sandbox.CSharp8;
 
 // NameOfExtendDemo.Demo([1,2,3]);
 
-GenericMathDemo.Demo();
+// GenericMathDemo.Demo();
+MicrosAndNanoSecondDemo.Demo();
 Console.WriteLine("Hello, World!");
