@@ -21,5 +21,6 @@ using Sandbox.CSharp8;
 
 // GenericMathDemo.Demo();
 //MicrosAndNanoSecondDemo.Demo();
-NewlineInStringInterpolationDemo.Demo();
+//NewlineInStringInterpolationDemo.Demo();
+PatternMatchingWithSpanCharDemo.Demo();
 Console.WriteLine("Hello, World!");
