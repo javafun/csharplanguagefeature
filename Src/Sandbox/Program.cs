@@ -20,5 +20,6 @@ using Sandbox.CSharp8;
 // NameOfExtendDemo.Demo([1,2,3]);
 
 // GenericMathDemo.Demo();
-MicrosAndNanoSecondDemo.Demo();
+//MicrosAndNanoSecondDemo.Demo();
+NewlineInStringInterpolationDemo.Demo();
 Console.WriteLine("Hello, World!");
